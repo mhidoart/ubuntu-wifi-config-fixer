@@ -6,5 +6,6 @@ then
     service network-manager restart
 else
     echo "your wifi is already configured check this file for mistakes: /etc/NetworkManager/NetworkManager.conf"
+    service network-manager restart
 
 fi
